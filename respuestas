@@ -1,0 +1,17 @@
+Respuestas
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?. 
+¿Qué tipo de máquina virtual soporta virtualBox?. 
+¿Qué función cumple el hypervisor en la virtualización?
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+
+Respuestas:
+1. Por su compatibilidad, La compatibilidad de un lenguaje con un sistema operativo puede depender de diseno del lenguaje, las bibliotecas disponibles y cómo se implementa el lenguaje en diferentes sistemas
+Algunos lenguajes están diseñados para ser portatiles y funcionar en multiples SO, mientras uqe otros pueden depender de caracteristicas especificas de un ssitema, y por lo tanto, solo so utilizables en ese sistema en particular
+
+2. VirtualBox es un software de virtualización que soporta una variedad de maquinas virtuales, que pueden ejecuta  diferentes sistemas operativo en una unica maquina fisica.
+virtualbox es capaz de ejecutar SO como windows,Linux,macOS y otros, permitiendo a los usuarios crear y admiinstrar variedad de maquinas virtuales con configuraciones personalizadas.
+
+3. Un hypervisor es el componente clave de la virtualizacion. Es un software o hardware que permite crear y ejecutar multiples maquinas virtuales en un unico sistema fisico
+Administra recursos fisicos de manera eficiente, los asgina y aisl a cada maquina virtual. 
+
+4.Generalmente no afeta directamente a las otras maquinas virtuales que estan siendo ejecutadas en el mismo sistema anfitrion. La visrtualizacion se basa en la idea de maquinas virtuales AISLADAS unas de otras y del sistema anfitrion.
